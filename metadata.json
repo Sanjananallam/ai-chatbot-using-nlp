@@ -1,0 +1,6 @@
+{
+  "name": "AI Chatbot Using NLP",
+  "description": "An intelligent, context-aware AI chatbot web application demonstrating Natural Language Processing, intent detection, context memory, and generative AI responses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
