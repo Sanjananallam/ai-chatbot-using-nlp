@@ -1,20 +1,80 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🤖 AI Chatbot Using NLP
 
-# Run and deploy your AI Studio app
+An AI-powered conversational chatbot built with Natural Language Processing (NLP) and Google's Gemini AI. The application provides a modern ChatGPT-style interface for interacting with an intelligent conversational assistant.
 
-This contains everything you need to run your app locally.
+## 📌 Project Overview
 
-View your app in AI Studio: https://ai.studio/apps/76a6b58a-3e2c-4ec0-a860-5c208f95cdc2
+The **AI Chatbot Using NLP** project is designed to provide users with an interactive conversational experience through a web-based chatbot.
 
-## Run Locally
+The system combines a modern React-based frontend with a backend API and Gemini AI to process user messages and generate relevant responses.
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- 💬 Interactive chatbot interface
+- 🤖 AI-powered conversational responses
+- 🧠 Natural Language Processing
+- ⚡ Real-time message interaction
+- 📝 Chat history management
+- 🎨 Modern and responsive user interface
+- ⚙️ Settings and chat controls
+- 🔐 Secure API key configuration using environment variables
+- 📱 Responsive design for different screen sizes
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Technologies Used
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- CSS
+
+### Backend
+- Node.js
+- TypeScript
+- Express/server-side API
+
+### AI & NLP
+- Google Gemini API
+- Natural Language Processing
+- AI-based response generation
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- npm
+
+## 🏗️ Project Structure
+
+```text
+ai-chatbot-using-nlp/
+│
+├── src/
+│   ├── components/
+│   │   ├── AboutModal.tsx
+│   │   ├── ChatHeader.tsx
+│   │   ├── ChatInput.tsx
+│   │   ├── MessageBubble.tsx
+│   │   ├── SettingsModal.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── TypingIndicator.tsx
+│   │   └── WelcomeView.tsx
+│   │
+│   ├── services/
+│   │   ├── api.ts
+│   │   └── storage.ts
+│   │
+│   ├── types/
+│   │   └── chat.ts
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── server.ts
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── .env.example
+└── .gitignore
